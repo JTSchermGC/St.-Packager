@@ -543,7 +543,6 @@
     <members>NewCase</members>
     <members>NewContact</members>
     <members>NewEvent</members>
-    <members>NewGroup</members>
     <members>New_Household_Account</members>
     <members>NewLead</members>
     <members>NewNote</members>
