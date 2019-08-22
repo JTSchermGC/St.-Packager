@@ -88,19 +88,9 @@
     <name>ApexTrigger</name>
   </types>
   <types>
-    <members>AppSwitcher</members>
-    <members>Salesforce1</members>
-    <name>AppMenu</name>
-  </types>
-  <types>
     <members>Case.Standard</members>
     <members>Lead.Standard</members>
     <name>AssignmentRule</name>
-  </types>
-  <types>
-    <members>Case</members>
-    <members>Lead</members>
-    <name>AssignmentRules</name>
   </types>
   <types>
     <members>BatchNewGift</members>
@@ -126,11 +116,6 @@
   <types>
     <members>LightningForGmail</members>
     <name>AuthProvider</name>
-  </types>
-  <types>
-    <members>Case</members>
-    <members>Lead</members>
-    <name>AutoResponseRules</name>
   </types>
   <types>
     <members>LEXTHEMINGBrooklyn</members>
@@ -181,20 +166,6 @@
     <members>DioBrooklynQueensParish</members>
     <members>Events_v_4</members>
     <members>Force_com</members>
-    <members>standard__AppLauncher</members>
-    <members>standard__Community</members>
-    <members>standard__Content</members>
-    <members>standard__LightningBolt</members>
-    <members>standard__LightningInstrumentation</members>
-    <members>standard__LightningSales</members>
-    <members>standard__LightningSalesConsole</members>
-    <members>standard__LightningService</members>
-    <members>standard__Marketing</members>
-    <members>standard__Platform</members>
-    <members>standard__Sales</members>
-    <members>standard__Service</members>
-    <members>standard__ServiceConsole</members>
-    <members>standard__Sites</members>
     <members>StDemonstration</members>
     <name>CustomApplication</name>
   </types>
@@ -481,7 +452,7 @@
     <name>CustomLabel</name>
   </types>
   <types>
-    <members>CustomLabels</members>
+      <members>CustomLabels</members>
     <name>CustomLabels</name>
   </types>
   <types>
@@ -595,362 +566,25 @@
     <name>CustomMetadata</name>
   </types>
   <types>
-    <members>Account</members>
-    <members>AccountContactRole</members>
-    <members>Activity</members>
-    <members>Asset</members>
-    <members>AssetRelationship</members>
-    <members>AssistantProgress</members>
-    <members>AuthorizationForm</members>
-    <members>AuthorizationFormConsent</members>
-    <members>AuthorizationFormDataUse</members>
-    <members>AuthorizationFormText</members>
     <members>BatchEntry__c</members>
-    <members>Campaign</members>
-    <members>CampaignMember</members>
-    <members>Case</members>
-    <members>CaseContactRole</members>
-    <members>ChatterActivity</members>
-    <members>ConsumptionRate</members>
-    <members>ConsumptionSchedule</members>
-    <members>Contact</members>
-    <members>ContactPointTypeConsent</members>
-    <members>ContactRequest</members>
-    <members>ContentVersion</members>
-    <members>Contract</members>
-    <members>ContractContactRole</members>
     <members>Country_Codes__c</members>
-    <members>DandBCompany</members>
-    <members>DataUseLegalBasis</members>
-    <members>DataUsePurpose</members>
     <members>DonorPaymentMethod__c</members>
-    <members>DuplicateRecordItem</members>
-    <members>DuplicateRecordSet</members>
-    <members>EmailMessage</members>
     <members>ErrorLogAPI__c</members>
-    <members>Event</members>
     <members>Event__c</members>
     <members>Event_Expense__c</members>
     <members>Event_MDF__c</members>
     <members>Event_Registration__c</members>
-    <members>ExchangeUserMapping</members>
-    <members>ExpressionFilter</members>
-    <members>ExpressionFilterCriteria</members>
-    <members>FeedItem</members>
-    <members>ForecastingCategoryMapping</members>
-    <members>Idea</members>
-    <members>Image</members>
-    <members>Individual</members>
     <members>Knowledge__kav</members>
-    <members>Lead</members>
-    <members>LinkedArticle</members>
-    <members>Macro</members>
-    <members>MacroAction</members>
-    <members>MacroInstruction</members>
     <members>Merchant_Id__c</members>
     <members>NPSPBatch__c</members>
-    <members>Opportunity</members>
-    <members>OpportunityCompetitor</members>
-    <members>OpportunityContactRole</members>
-    <members>OpportunityLineItem</members>
-    <members>Order</members>
-    <members>OrderItem</members>
-    <members>OrgDeleteRequest</members>
-    <members>PartnerRole</members>
-    <members>Pricebook2</members>
-    <members>PricebookEntry</members>
-    <members>Product2</members>
-    <members>ProductConsumptionSchedule</members>
-    <members>PromptAction</members>
-    <members>QuickText</members>
-    <members>Recommendation</members>
-    <members>RecordAction</members>
-    <members>RequestsForAccessSIQ</members>
     <members>Room__c</members>
     <members>Sacrament__c</members>
-    <members>Scorecard</members>
-    <members>ScorecardAssociation</members>
-    <members>ScorecardMetric</members>
     <members>Session__c</members>
-    <members>Site</members>
-    <members>SocialPersona</members>
-    <members>Solution</members>
-    <members>SOSSession</members>
-    <members>SOSSessionActivity</members>
     <members>Speaker__c</members>
-    <members>StreamActivityAccess</members>
-    <members>StreamingChannel</members>
     <members>Street_Address__c</members>
-    <members>Task</members>
-    <members>Topic</members>
-    <members>TopicAssignment</members>
     <members>Track__c</members>
-    <members>User</members>
-    <members>UserProvisioningRequest</members>
     <members>Venue__c</members>
     <name>CustomObject</name>
-  </types>
-  <types>
-    <members>Account-de</members>
-    <members>Account-en_US</members>
-    <members>Account-es</members>
-    <members>Account-fr</members>
-    <members>Account-iw</members>
-    <members>Account-ja</members>
-    <members>Account-nl_NL</members>
-    <members>Activity-de</members>
-    <members>Activity-es</members>
-    <members>Activity-fr</members>
-    <members>Activity-iw</members>
-    <members>Activity-ja</members>
-    <members>Activity-nl_NL</members>
-    <members>BatchEntry__c-en_US</members>
-    <members>Campaign-de</members>
-    <members>Campaign-en_US</members>
-    <members>Campaign-es</members>
-    <members>Campaign-fr</members>
-    <members>Campaign-iw</members>
-    <members>Campaign-ja</members>
-    <members>Campaign-nl_NL</members>
-    <members>Contact-de</members>
-    <members>Contact-en_US</members>
-    <members>Contact-es</members>
-    <members>Contact-fr</members>
-    <members>Contact-iw</members>
-    <members>Contact-ja</members>
-    <members>Contact-nl_NL</members>
-    <members>Country_Codes__c-en_US</members>
-    <members>DonorPaymentMethod__c-en_US</members>
-    <members>ErrorLogAPI__c-en_US</members>
-    <members>Event__c-en_US</members>
-    <members>Event_Expense__c-en_US</members>
-    <members>Event_MDF__c-en_US</members>
-    <members>Event_Registration__c-en_US</members>
-    <members>GW_Volunteers__Job_Recurrence_Schedule__c-de</members>
-    <members>GW_Volunteers__Job_Recurrence_Schedule__c-en_US</members>
-    <members>GW_Volunteers__Job_Recurrence_Schedule__c-es</members>
-    <members>GW_Volunteers__Job_Recurrence_Schedule__c-fr</members>
-    <members>GW_Volunteers__Job_Recurrence_Schedule__c-ja</members>
-    <members>GW_Volunteers__Volunteer_Hours__c-de</members>
-    <members>GW_Volunteers__Volunteer_Hours__c-en_US</members>
-    <members>GW_Volunteers__Volunteer_Hours__c-es</members>
-    <members>GW_Volunteers__Volunteer_Hours__c-fr</members>
-    <members>GW_Volunteers__Volunteer_Hours__c-ja</members>
-    <members>GW_Volunteers__Volunteer_Job__c-de</members>
-    <members>GW_Volunteers__Volunteer_Job__c-en_US</members>
-    <members>GW_Volunteers__Volunteer_Job__c-es</members>
-    <members>GW_Volunteers__Volunteer_Job__c-fr</members>
-    <members>GW_Volunteers__Volunteer_Job__c-ja</members>
-    <members>GW_Volunteers__Volunteer_Recurrence_Schedule__c-de</members>
-    <members>GW_Volunteers__Volunteer_Recurrence_Schedule__c-en_US</members>
-    <members>GW_Volunteers__Volunteer_Recurrence_Schedule__c-es</members>
-    <members>GW_Volunteers__Volunteer_Recurrence_Schedule__c-fr</members>
-    <members>GW_Volunteers__Volunteer_Recurrence_Schedule__c-ja</members>
-    <members>GW_Volunteers__Volunteer_Shift__c-de</members>
-    <members>GW_Volunteers__Volunteer_Shift__c-en_US</members>
-    <members>GW_Volunteers__Volunteer_Shift__c-es</members>
-    <members>GW_Volunteers__Volunteer_Shift__c-fr</members>
-    <members>GW_Volunteers__Volunteer_Shift__c-ja</members>
-    <members>GW_Volunteers__Volunteers_Settings__c-en_US</members>
-    <members>Knowledge__kav-en_US</members>
-    <members>Lead-de</members>
-    <members>Lead-es</members>
-    <members>Lead-fr</members>
-    <members>Lead-iw</members>
-    <members>Lead-ja</members>
-    <members>Lead-nl_NL</members>
-    <members>Merchant_Id__c-en_US</members>
-    <members>npe01__Contacts_And_Orgs_Settings__c-en_US</members>
-    <members>npe01__OppPayment__c-de</members>
-    <members>npe01__OppPayment__c-en_US</members>
-    <members>npe01__OppPayment__c-es</members>
-    <members>npe01__OppPayment__c-fr</members>
-    <members>npe01__OppPayment__c-iw</members>
-    <members>npe01__OppPayment__c-ja</members>
-    <members>npe01__OppPayment__c-nl_NL</members>
-    <members>npe01__Payment_Field_Mapping_Settings__c-en_US</members>
-    <members>npe03__Custom_Field_Mapping__c-en_US</members>
-    <members>npe03__Custom_Installment_Settings__c-en_US</members>
-    <members>npe03__Recurring_Donation__c-de</members>
-    <members>npe03__Recurring_Donation__c-en_US</members>
-    <members>npe03__Recurring_Donation__c-es</members>
-    <members>npe03__Recurring_Donation__c-fr</members>
-    <members>npe03__Recurring_Donation__c-iw</members>
-    <members>npe03__Recurring_Donation__c-ja</members>
-    <members>npe03__Recurring_Donation__c-nl_NL</members>
-    <members>npe03__Recurring_Donations_Settings__c-en_US</members>
-    <members>npe4__Relationship_Auto_Create__c-en_US</members>
-    <members>npe4__Relationship__c-de</members>
-    <members>npe4__Relationship__c-en_US</members>
-    <members>npe4__Relationship__c-es</members>
-    <members>npe4__Relationship__c-fr</members>
-    <members>npe4__Relationship__c-iw</members>
-    <members>npe4__Relationship__c-ja</members>
-    <members>npe4__Relationship__c-nl_NL</members>
-    <members>npe4__Relationship_Error__c-de</members>
-    <members>npe4__Relationship_Error__c-en_US</members>
-    <members>npe4__Relationship_Error__c-es</members>
-    <members>npe4__Relationship_Error__c-fr</members>
-    <members>npe4__Relationship_Error__c-iw</members>
-    <members>npe4__Relationship_Error__c-ja</members>
-    <members>npe4__Relationship_Error__c-nl_NL</members>
-    <members>npe4__Relationship_Lookup__c-en_US</members>
-    <members>npe4__Relationship_Settings__c-en_US</members>
-    <members>npe5__Affiliation__c-de</members>
-    <members>npe5__Affiliation__c-en_US</members>
-    <members>npe5__Affiliation__c-es</members>
-    <members>npe5__Affiliation__c-fr</members>
-    <members>npe5__Affiliation__c-iw</members>
-    <members>npe5__Affiliation__c-ja</members>
-    <members>npe5__Affiliation__c-nl_NL</members>
-    <members>npe5__Affiliations_Settings__c-en_US</members>
-    <members>npo02__Household__c-de</members>
-    <members>npo02__Household__c-en_US</members>
-    <members>npo02__Household__c-es</members>
-    <members>npo02__Household__c-fr</members>
-    <members>npo02__Household__c-iw</members>
-    <members>npo02__Household__c-ja</members>
-    <members>npo02__Household__c-nl_NL</members>
-    <members>npo02__Households_Settings__c-en_US</members>
-    <members>npo02__Opportunity_Rollup_Error__c-en_US</members>
-    <members>npo02__User_Rollup_Field_Settings__c-en_US</members>
-    <members>npsp__Account_Soft_Credit__c-en_US</members>
-    <members>npsp__Address__c-de</members>
-    <members>npsp__Address__c-en_US</members>
-    <members>npsp__Address__c-es</members>
-    <members>npsp__Address__c-fr</members>
-    <members>npsp__Address__c-iw</members>
-    <members>npsp__Address__c-ja</members>
-    <members>npsp__Address__c-nl_NL</members>
-    <members>npsp__Address_Verification_Settings__c-en_US</members>
-    <members>npsp__Allocation__c-de</members>
-    <members>npsp__Allocation__c-en_US</members>
-    <members>npsp__Allocation__c-es</members>
-    <members>npsp__Allocation__c-fr</members>
-    <members>npsp__Allocation__c-iw</members>
-    <members>npsp__Allocation__c-ja</members>
-    <members>npsp__Allocation__c-nl_NL</members>
-    <members>npsp__Allocations_Settings__c-en_US</members>
-    <members>npsp__Batch__c-de</members>
-    <members>npsp__Batch__c-en_US</members>
-    <members>NPSPBatch__c-en_US</members>
-    <members>npsp__Batch__c-es</members>
-    <members>npsp__Batch__c-fr</members>
-    <members>npsp__Batch__c-iw</members>
-    <members>npsp__Batch__c-ja</members>
-    <members>npsp__Batch__c-nl_NL</members>
-    <members>npsp__Batch_Data_Entry_Settings__c-en_US</members>
-    <members>npsp__Customizable_Rollup_Settings__c-en_US</members>
-    <members>npsp__DataImportBatch__c-en_US</members>
-    <members>npsp__DataImportBatch__c-nl_NL</members>
-    <members>npsp__DataImport__c-de</members>
-    <members>npsp__DataImport__c-en_US</members>
-    <members>npsp__DataImport__c-es</members>
-    <members>npsp__DataImport__c-fr</members>
-    <members>npsp__DataImport__c-iw</members>
-    <members>npsp__DataImport__c-ja</members>
-    <members>npsp__DataImport__c-nl_NL</members>
-    <members>npsp__Data_Import_Field_Mapping__mdt-en_US</members>
-    <members>npsp__Data_Import_Field_Mapping_Set__mdt-en_US</members>
-    <members>npsp__Data_Import_Object_Mapping__mdt-en_US</members>
-    <members>npsp__Data_Import_Object_Mapping_Set__mdt-en_US</members>
-    <members>npsp__Data_Import_Settings__c-en_US</members>
-    <members>npsp__DeploymentEvent__e-en_US</members>
-    <members>npsp__Engagement_Plan__c-de</members>
-    <members>npsp__Engagement_Plan__c-en_US</members>
-    <members>npsp__Engagement_Plan__c-es</members>
-    <members>npsp__Engagement_Plan__c-fr</members>
-    <members>npsp__Engagement_Plan__c-iw</members>
-    <members>npsp__Engagement_Plan__c-ja</members>
-    <members>npsp__Engagement_Plan__c-nl_NL</members>
-    <members>npsp__Engagement_Plan_Task__c-de</members>
-    <members>npsp__Engagement_Plan_Task__c-en_US</members>
-    <members>npsp__Engagement_Plan_Task__c-es</members>
-    <members>npsp__Engagement_Plan_Task__c-fr</members>
-    <members>npsp__Engagement_Plan_Task__c-iw</members>
-    <members>npsp__Engagement_Plan_Task__c-ja</members>
-    <members>npsp__Engagement_Plan_Task__c-nl_NL</members>
-    <members>npsp__Engagement_Plan_Template__c-de</members>
-    <members>npsp__Engagement_Plan_Template__c-en_US</members>
-    <members>npsp__Engagement_Plan_Template__c-es</members>
-    <members>npsp__Engagement_Plan_Template__c-fr</members>
-    <members>npsp__Engagement_Plan_Template__c-iw</members>
-    <members>npsp__Engagement_Plan_Template__c-ja</members>
-    <members>npsp__Engagement_Plan_Template__c-nl_NL</members>
-    <members>npsp__Error__c-de</members>
-    <members>npsp__Error__c-en_US</members>
-    <members>npsp__Error__c-es</members>
-    <members>npsp__Error__c-fr</members>
-    <members>npsp__Error__c-iw</members>
-    <members>npsp__Error__c-ja</members>
-    <members>npsp__Error__c-nl_NL</members>
-    <members>npsp__Error_Settings__c-en_US</members>
-    <members>npsp__Filter_Group__mdt-en_US</members>
-    <members>npsp__Filter_Rule__mdt-en_US</members>
-    <members>npsp__Fund__c-en_US</members>
-    <members>npsp__General_Accounting_Unit__c-de</members>
-    <members>npsp__General_Accounting_Unit__c-en_US</members>
-    <members>npsp__General_Accounting_Unit__c-es</members>
-    <members>npsp__General_Accounting_Unit__c-fr</members>
-    <members>npsp__General_Accounting_Unit__c-iw</members>
-    <members>npsp__General_Accounting_Unit__c-ja</members>
-    <members>npsp__General_Accounting_Unit__c-nl_NL</members>
-    <members>npsp__Grant_Deadline__c-de</members>
-    <members>npsp__Grant_Deadline__c-en_US</members>
-    <members>npsp__Grant_Deadline__c-es</members>
-    <members>npsp__Grant_Deadline__c-fr</members>
-    <members>npsp__Grant_Deadline__c-iw</members>
-    <members>npsp__Grant_Deadline__c-ja</members>
-    <members>npsp__Grant_Deadline__c-nl_NL</members>
-    <members>npsp__Household_Naming_Settings__c-en_US</members>
-    <members>npsp__Level__c-de</members>
-    <members>npsp__Level__c-en_US</members>
-    <members>npsp__Level__c-es</members>
-    <members>npsp__Level__c-fr</members>
-    <members>npsp__Level__c-iw</members>
-    <members>npsp__Level__c-ja</members>
-    <members>npsp__Level__c-nl_NL</members>
-    <members>npsp__Levels_Settings__c-en_US</members>
-    <members>npsp__Opportunity_Naming_Settings__c-en_US</members>
-    <members>npsp__Opportunity_Stage_To_State_Mapping__mdt-en_US</members>
-    <members>npsp__Partial_Soft_Credit__c-de</members>
-    <members>npsp__Partial_Soft_Credit__c-en_US</members>
-    <members>npsp__Partial_Soft_Credit__c-es</members>
-    <members>npsp__Partial_Soft_Credit__c-fr</members>
-    <members>npsp__Partial_Soft_Credit__c-iw</members>
-    <members>npsp__Partial_Soft_Credit__c-ja</members>
-    <members>npsp__Partial_Soft_Credit__c-nl_NL</members>
-    <members>npsp__Relationship_Sync_Excluded_Fields__c-en_US</members>
-    <members>npsp__Rollup__mdt-en_US</members>
-    <members>npsp__Schedulable__c-de</members>
-    <members>npsp__Schedulable__c-en_US</members>
-    <members>npsp__Schedulable__c-es</members>
-    <members>npsp__Schedulable__c-fr</members>
-    <members>npsp__Schedulable__c-iw</members>
-    <members>npsp__Schedulable__c-ja</members>
-    <members>npsp__Schedulable__c-nl_NL</members>
-    <members>npsp__Trigger_Handler__c-de</members>
-    <members>npsp__Trigger_Handler__c-en_US</members>
-    <members>npsp__Trigger_Handler__c-es</members>
-    <members>npsp__Trigger_Handler__c-fr</members>
-    <members>npsp__Trigger_Handler__c-iw</members>
-    <members>npsp__Trigger_Handler__c-ja</members>
-    <members>npsp__Trigger_Handler__c-nl_NL</members>
-    <members>Opportunity-de</members>
-    <members>Opportunity-en_US</members>
-    <members>Opportunity-es</members>
-    <members>Opportunity-fr</members>
-    <members>Opportunity-iw</members>
-    <members>Opportunity-ja</members>
-    <members>Opportunity-nl_NL</members>
-    <members>Room__c-en_US</members>
-    <members>Sacrament__c-en_US</members>
-    <members>Session__c-en_US</members>
-    <members>Speaker__c-en_US</members>
-    <members>Street_Address__c-en_US</members>
-    <members>Track__c-en_US</members>
-    <members>Venue__c-en_US</members>
-    <name>CustomObjectTranslation</name>
   </types>
   <types>
     <members>Batch_List</members>
@@ -995,7 +629,6 @@
     <name>DuplicateRule</name>
   </types>
   <types>
-    <members>unfiled$public</members>
     <members>unfiled$public/MarketingProductInquiryResponse</members>
     <members>unfiled$public/Parish_Newsletter_1564510348560</members>
     <members>unfiled$public/SalesNewCustomerEmail</members>
@@ -1015,10 +648,6 @@
   <types>
     <members>Case.Standard</members>
     <name>EscalationRule</name>
-  </types>
-  <types>
-    <members>Case</members>
-    <name>EscalationRules</name>
   </types>
   <types>
     <members>Affiliation</members>
@@ -1074,54 +703,6 @@
   <types>
     <members>DE Default</members>
     <name>HomePageLayout</name>
-  </types>
-  <types>
-    <members>GW_Volunteers</members>
-    <members>npe01</members>
-    <members>npe03</members>
-    <members>npe4</members>
-    <members>npe5</members>
-    <members>npo02</members>
-    <members>npsp</members>
-    <members>sf_chttr_apps</members>
-    <members>sf_chttr_apps</members>
-    <members>sf_chttr_apps</members>
-    <members>sf_chttr_apps</members>
-    <members>sf_chttr_apps</members>
-    <members>sf_chttr_apps</members>
-    <members>sf_chttr_apps</members>
-    <members>sf_chttr_apps</members>
-    <members>sf_chttr_apps</members>
-    <members>sf_chttr_apps</members>
-    <members>sf_chttr_apps</members>
-    <members>sf_chttr_apps</members>
-    <members>sf_chttr_apps</members>
-    <members>sf_chttr_apps</members>
-    <members>sf_chttr_apps</members>
-    <members>sf_chttr_apps</members>
-    <members>sf_chttr_apps</members>
-    <members>sf_chttr_apps</members>
-    <members>sf_chttr_apps</members>
-    <members>sf_chttr_apps</members>
-    <members>sf_chttr_apps</members>
-    <members>sf_com_apps</members>
-    <members>sf_com_apps</members>
-    <members>sf_com_apps</members>
-    <members>sf_com_apps</members>
-    <members>sf_com_apps</members>
-    <members>sf_com_apps</members>
-    <members>sf_com_apps</members>
-    <members>sf_com_apps</members>
-    <members>sf_com_apps</members>
-    <members>sf_com_apps</members>
-    <members>sf_com_apps</members>
-    <members>sf_com_apps</members>
-    <members>sf_com_apps</members>
-    <members>sf_com_apps</members>
-    <members>sf_com_apps</members>
-    <members>sf_com_apps</members>
-    <members>sf_com_apps</members>
-    <name>InstalledPackage</name>
   </types>
   <types>
     <members>Account-Account %28Vendor%29 Layout</members>
@@ -1322,13 +903,6 @@
     <members>Lead.Standard_Lead_Match_Rule_v1_0</members>
     <members>npo02__Household__c.Household_matching_rule</members>
     <name>MatchingRule</name>
-  </types>
-  <types>
-    <members>Account</members>
-    <members>Contact</members>
-    <members>Individual</members>
-    <members>Lead</members>
-    <name>MatchingRules</name>
   </types>
   <types>
     <members>Batch_Gift_Entry</members>
@@ -1544,7 +1118,6 @@
     <members>NPSP_Fundraising_Reports/Top_25_Opportunities_Lifetime</members>
     <members>NPSP_Fundraising_Reports/Tribute_Opportunities</members>
     <members>NPSP_Fundraising_Reports/X10_Increase_Projection</members>
-    <members>unfiled$public</members>
     <members>unfiled$public/Engagement_Plans_zOq</members>
     <members>unfiled$public/Expired_Credit_Cards_NSW</members>
     <members>unfiled$public/New_Donors_Last_7_Days_9xj</members>
@@ -1586,57 +1159,15 @@
     <name>SamlSsoConfig</name>
   </types>
   <types>
-    <members>Account</members>
-    <members>Activities</members>
-    <members>Address</members>
-    <members>BusinessHours</members>
-    <members>Case</members>
-    <members>Company</members>
-    <members>Contract</members>
-    <members>Entitlement</members>
-    <members>FieldService</members>
-    <members>FileUploadAndDownloadSecurity</members>
-    <members>Forecasting</members>
-    <members>Ideas</members>
-    <members>IoT</members>
-    <members>Knowledge</members>
-    <members>LiveAgent</members>
-    <members>Macro</members>
-    <members>Mobile</members>
-    <members>Name</members>
-    <members>OmniChannel</members>
-    <members>Opportunity</members>
-    <members>Order</members>
-    <members>OrgPreference</members>
-    <members>PathAssistant</members>
-    <members>Product</members>
-    <members>Quote</members>
-    <members>Search</members>
-    <members>Security</members>
-    <name>Settings</name>
-  </types>
-  <types>
-    <members>Account</members>
-    <members>Asset</members>
     <members>BatchEntry__c</members>
-    <members>Campaign</members>
-    <members>Case</members>
-    <members>Contact</members>
     <members>Country_Codes__c</members>
     <members>DonorPaymentMethod__c</members>
     <members>ErrorLogAPI__c</members>
     <members>Event__c</members>
-    <members>FlowInterview</members>
-    <members>Individual</members>
-    <members>Lead</members>
-    <members>ListEmail</members>
     <members>Merchant_Id__c</members>
     <members>NPSPBatch__c</members>
-    <members>Opportunity</members>
-    <members>Order</members>
     <members>Sacrament__c</members>
     <members>Street_Address__c</members>
-    <members>User</members>
     <members>Venue__c</members>
     <name>SharingRules</name>
   </types>
@@ -1728,12 +1259,6 @@
     <members>Contact.Add_Payment_Method</members>
     <members>Opportunity.DeliveryStatus</members>
     <name>WebLink</name>
-  </types>
-  <types>
-    <members>Contact</members>
-    <members>Lead</members>
-    <members>Opportunity</members>
-    <name>Workflow</name>
   </types>
   <version>45.0</version>
 </Package>
