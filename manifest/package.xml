@@ -521,9 +521,6 @@
     <members>Order.AllOrders</members>
     <members>Product2.AllProducts</members>
     <members>Sacrament__c.All</members>
-    <members>Scorecard.AllScorecards</members>
-    <members>Scorecard.MyScorecards</members>
-    <members>SocialPersona.AllSocialPersonas</members>
     <members>Solution.AllReviewedSolutions</members>
     <members>Solution.AllUnreviewedSolutions</members>
     <members>Street_Address__c.All</members>
