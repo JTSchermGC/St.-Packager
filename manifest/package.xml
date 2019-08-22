@@ -490,7 +490,6 @@
     <members>Contact.NewLastWeek</members>
     <members>Contact.new_list</members>
     <members>Contact.NewThisWeek</members>
-    <members>ContactRequest.My_ContactRequests</members>
     <members>Contract.AllActivatedContracts</members>
     <members>Contract.AllContracts</members>
     <members>Contract.AllDraftContracts</members>
