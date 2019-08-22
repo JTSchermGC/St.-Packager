@@ -499,7 +499,6 @@
     <members>Contract.MyInApprovalContracts</members>
     <members>Country_Codes__c.All</members>
     <members>DonorPaymentMethod__c.All</members>
-    <members>Idea.Ideas_Last_7_Days</members>
     <members>Lead.AllOpenLeads</members>
     <members>Lead.InternationalLeads</members>
     <members>Lead.MyUnreadLeads</members>
