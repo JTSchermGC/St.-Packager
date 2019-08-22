@@ -1,6 +1,0 @@
-<aura:component controller="DeleteDonor" implements="flexipage:availableForAllPageTypes,force:lightningQuickActionWithoutHeader,force:hasRecordId,force:hasSObjectName" access="global" >
-    <div class="slds-align_absolute-center" style="height:12px;">
-        Are you Want to Delete the Recurring Record
-    	<lightning:button label="Delete Recurring" title="Delete Recurring" onclick="{!c.myAction}" />
-    </div>
-</aura:component>

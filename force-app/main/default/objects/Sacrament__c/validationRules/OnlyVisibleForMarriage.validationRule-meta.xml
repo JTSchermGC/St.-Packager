@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>OnlyVisibleForMarriage</fullName>
-    <active>false</active>
-    <errorConditionFormula>NOT(ISPICKVAL( Sacrament__c , &#39;Marriage&#39;))</errorConditionFormula>
-    <errorDisplayField>Date_of_Marriage__c</errorDisplayField>
-    <errorMessage>Marriage Date is available only for Marriage Type Sacrament</errorMessage>
-</ValidationRule>
