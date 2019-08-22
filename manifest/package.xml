@@ -499,12 +499,6 @@
     <members>Contract.MyInApprovalContracts</members>
     <members>Country_Codes__c.All</members>
     <members>DonorPaymentMethod__c.All</members>
-    <members>ErrorLogAPI__c.All</members>
-    <members>Event.MyRecentEvents</members>
-    <members>Event.MyTeamsRecentEvents</members>
-    <members>Event.MyTeamsUpcomingEvents</members>
-    <members>Event.MyUpcomingEvents</members>
-    <members>Event.TodaysAgenda</members>
     <members>Idea.Ideas_Last_7_Days</members>
     <members>Lead.AllOpenLeads</members>
     <members>Lead.InternationalLeads</members>
