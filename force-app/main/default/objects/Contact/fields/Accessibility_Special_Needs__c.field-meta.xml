@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Accessibility_Special_Needs__c</fullName>
+    <description>Details of accessibility or special needs requested of the donor or family member.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Details of accessibility or special needs requested of the donor or family member.</inlineHelpText>
+    <label>Accessibility / Special Needs</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

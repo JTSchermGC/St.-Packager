@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gc_event_id__c</fullName>
+    <description>Event ID number will be assigned by GiveCentral and is not editable.</description>
+    <externalId>true</externalId>
+    <inlineHelpText>Unique event ID number will be assigned by GiveCentral for this campaign and is not editable.</inlineHelpText>
+    <label>GC Event ID</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>
