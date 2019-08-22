@@ -531,8 +531,6 @@
     <members>Add_Donor</members>
     <members>Campaign.Sync_Event</members>
     <members>Case.NewChildCase</members>
-    <members>CollaborationGroup.NewGroupMember</members>
-    <members>CollaborationGroup.NewGroupRecord</members>
     <members>Contact.Delete_Donor</members>
     <members>Contact.Delete_Donor_component</members>
     <members>Contact.Delete_Recurring</members>
