@@ -457,14 +457,6 @@
     <name>LightningExperienceTheme</name>
   </types>
   <types>
-    <members>Account.Standard_Account_Match_Rule_v1_0</members>
-    <members>Contact.duplicates_contact_rule</members>
-    <members>Contact.Standard_Contact_Match_Rule_v1_1</members>
-    <members>Lead.Standard_Lead_Match_Rule_v1_0</members>
-    <members>npo02__Household__c.Household_matching_rule</members>
-    <name>MatchingRule</name>
-  </types>
-  <types>
     <members>Batch_Gift_Entry</members>
     <name>PermissionSet</name>
   </types>
