@@ -6,6 +6,6 @@
     }
   ],
   "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sfdcLoginUrl": "https://nonprofit-1-dev-ed.my.salesforce.com",
   "sourceApiVersion": "46.0"
 }
