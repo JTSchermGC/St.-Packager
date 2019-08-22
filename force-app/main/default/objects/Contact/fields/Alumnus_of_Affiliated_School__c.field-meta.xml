@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Alumnus_of_Affiliated_School__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Donor contact is an alumnus of the affiliated school or location.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Did this person graduate from the affiliated school?</inlineHelpText>
+    <label>Alumnus of Affiliated School</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

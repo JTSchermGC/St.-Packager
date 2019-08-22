@@ -1,0 +1,3 @@
+<apex:page Controller="GetGcDonorData" action="{!DonorData}">
+
+</apex:page>

@@ -1,0 +1,28 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+    	<aura:attribute name="ContactselectedLookUpRecord" type="sObject" default="{}"/>
+    	<aura:attribute name="ContactIdselectedLookUpRecord" type="sObject" default="{}"/>
+        <aura:attribute name="id" type="String" access="global"/>
+    	<aura:attribute name="today" type="Date" default=""/>
+    	<aura:attribute name="amount" type="Integer" default=""/>
+    	<aura:attribute name="cheque" type="String" default=""/>
+    	<aura:attribute name="BatchId" type="Id" default=""/>
+    	<aura:attribute name="autoval_Data" type="Id" default="hello"/>
+    	<aura:attribute name="paymentType" type="string" default="Cash"/>
+    <!-- ranbir code added--> <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    	 <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+        <div class='slds-grid slds-gutters' aura:id="messages">
+            <div class='slds-col'><c:customLookup aura:id="contact_data_contact" objectAPIName="Contact" IconName="standard:contact" selectedRecord="{!v.ContactIdselectedLookUpRecord}" label="EvenContact/Donar Id Name"/></div>
+            <!--<div class='slds-col'><ui:inputText required="true" value="{!v.id}" aura:id="inputName" label="Id" class="myname slds-input" labelClass="slds-form-element__label"/></div>-->
+            <div class='slds-col'><ui:inputText value="{!v.cheque}" aura:id="inputCheque" label="cheque Number" class="slds-input" labelClass="slds-form-element__label"/></div>
+            <div class='slds-col'><ui:inputText required="true" value="{!v.amount}" aura:id="inputNAmount" label="Amount" class="slds-input" labelClass="slds-form-element__label"/></div>
+            <div class='slds-col'><c:customLookup autovalData="{!v.autoval_Data}" value="{!v.BatchId}" aura:id="contact_data" objectAPIName="campaign" IconName="standard:campaign" selectedRecord="{!v.ContactselectedLookUpRecord}" label="Event Name"/></div>
+            <div class='slds-col'>
+                <lightning:select aura:id="paymentmethod" name="{!v.paymentType}" label="Payment Type" onchange="{!c.onchangePayment}" required="true">
+                    <option selected="selected" value="Cash">Cash</option>
+                    <option value="Cheque">Cheque</option>
+                </lightning:select>
+            </div>
+            <div class='slds-col'><ui:inputDate required="true" aura:id="expdate" label="Donation Date" class="field" value="{!v.today}" displayDatePicker="true" /> </div>
+            <!--<div class='width_div slds-col'><button aura:id="deleted" class="slds-button sldsbuttonneutral" label="Destroy" onclick="{!c.destroyModal}">Destroy</button></div>-->
+       </div>
+</aura:component>
