@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>enddate</fullName>
-    <active>true</active>
-    <errorConditionFormula>ISBLANK( EndDate )</errorConditionFormula>
-    <errorDisplayField>EndDate</errorDisplayField>
-    <errorMessage>This is a required field, please enter a date in the future. If you wish donations to be ongoing the recommended end date should be at least five years from today. The end date is always editable.</errorMessage>
-</ValidationRule>
