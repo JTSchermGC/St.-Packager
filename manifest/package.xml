@@ -103,7 +103,6 @@
     <members>dynamicBatchForm</members>
     <members>GcDonorSyncButton</members>
     <members>GcOpportunitySyncButton</members>
-    <members>List_NPSP_Batch</members>
     <members>NPSPBatchEntry</members>
     <members>NPSPBatchEntryTool</members>
     <members>Recurring</members>
@@ -139,8 +138,6 @@
   </types>
   <types>
     <members>Account.New_Households</members>
-    <members>Account.NPSP_Household_Account</members>
-    <members>Account.NPSP_Organization_Account</members>
     <members>Account.Parish</members>
     <name>CompactLayout</name>
   </types>
@@ -164,7 +161,6 @@
   </types>
   <types>
     <members>DioBrooklynQueensParish</members>
-    <members>Events_v_4</members>
     <members>Force_com</members>
     <members>StDemonstration</members>
     <name>CustomApplication</name>
@@ -232,82 +228,6 @@
     <members>ErrorLogAPI__c.Donor__c</members>
     <members>ErrorLogAPI__c.ErrorStatus__c</members>
     <members>ErrorLogAPI__c.RecordId__c</members>
-    <members>Event__c.Budget_Activities__c</members>
-    <members>Event__c.Budget_Catering__c</members>
-    <members>Event__c.Budget_Contingency__c</members>
-    <members>Event__c.Budget_Decor__c</members>
-    <members>Event__c.Budget_Other__c</members>
-    <members>Event__c.Budget_Printing__c</members>
-    <members>Event__c.Budget_Site_Rental__c</members>
-    <members>Event__c.Budget_Total__c</members>
-    <members>Event__c.Budget_Transportation__c</members>
-    <members>Event__c.Capacity_Full__c</members>
-    <members>Event__c.Event_Description__c</members>
-    <members>Event__c.Event_End_Date__c</members>
-    <members>Event__c.Event_Evaluation__c</members>
-    <members>Event__c.Event_Manager__c</members>
-    <members>Event__c.Event_Start_Date__c</members>
-    <members>Event__c.Event_Type__c</members>
-    <members>Event__c.Event_Vendor_Account__c</members>
-    <members>Event__c.Event_Vision__c</members>
-    <members>Event__c.Event_Website__c</members>
-    <members>Event__c.Expenses_Activities__c</members>
-    <members>Event__c.Expenses_Catering__c</members>
-    <members>Event__c.Expenses_Decor__c</members>
-    <members>Event__c.Expenses_Other__c</members>
-    <members>Event__c.Expenses_Printing__c</members>
-    <members>Event__c.Expenses_Site_Rental__c</members>
-    <members>Event__c.Expenses_Transportation__c</members>
-    <members>Event__c.Final_Attendance__c</members>
-    <members>Event__c.Map_to_Venue__c</members>
-    <members>Event__c.Maximum_Registration__c</members>
-    <members>Event__c.Net_Actual_Cost__c</members>
-    <members>Event__c.Net_Expected_Cost__c</members>
-    <members>Event__c.Primary_Vendor_Contact__c</members>
-    <members>Event__c.Primary_Vendor_Contact_Phone__c</members>
-    <members>Event__c.Region__c</members>
-    <members>Event__c.Registered_Attendees__c</members>
-    <members>Event__c.Targeted_Attendance__c</members>
-    <members>Event__c.Total_Actual_MDF__c</members>
-    <members>Event__c.Total_Expected_MDF__c</members>
-    <members>Event__c.Total_Expenses__c</members>
-    <members>Event__c.Venue__c</members>
-    <members>Event__c.Venue_City__c</members>
-    <members>Event__c.Venue_Country__c</members>
-    <members>Event__c.Venue_Postal_Code__c</members>
-    <members>Event__c.Venue_State__c</members>
-    <members>Event__c.Venue_Status__c</members>
-    <members>Event__c.Venue_Street_Address_1__c</members>
-    <members>Event__c.Venue_Street_Address_2__c</members>
-    <members>Event_Expense__c.Business_Purpose__c</members>
-    <members>Event_Expense__c.City_State__c</members>
-    <members>Event_Expense__c.Comment__c</members>
-    <members>Event_Expense__c.Event__c</members>
-    <members>Event_Expense__c.Expense_Type__c</members>
-    <members>Event_Expense__c.Site_Rental__c</members>
-    <members>Event_Expense__c.Transaction_Date__c</members>
-    <members>Event_Expense__c.Vendor_Name__c</members>
-    <members>Event_MDF__c.Agreement_Details__c</members>
-    <members>Event_MDF__c.Event__c</members>
-    <members>Event_MDF__c.MDF_Amount__c</members>
-    <members>Event_MDF__c.MDF_Partner_Account__c</members>
-    <members>Event_MDF__c.MDF_Partner_Contact__c</members>
-    <members>Event_MDF__c.Received_Payment__c</members>
-    <members>Event_Registration__c.Attendee_Company__c</members>
-    <members>Event_Registration__c.Attendee_Mailing_Address__c</members>
-    <members>Event_Registration__c.Attendee_Mailing_City__c</members>
-    <members>Event_Registration__c.Attendee_Mailing_Country__c</members>
-    <members>Event_Registration__c.Attendee_Mailing_State__c</members>
-    <members>Event_Registration__c.Attendee_Mailing_Zip_Code__c</members>
-    <members>Event_Registration__c.Attendee_Mobile_Phone__c</members>
-    <members>Event_Registration__c.Attendee_Office_Phone__c</members>
-    <members>Event_Registration__c.Contact__c</members>
-    <members>Event_Registration__c.Dietary_Needs__c</members>
-    <members>Event_Registration__c.Event__c</members>
-    <members>Event_Registration__c.Name_on_Badge__c</members>
-    <members>Event_Registration__c.Primary_Track_of_Interest__c</members>
-    <members>Event_Registration__c.Registration_Type__c</members>
-    <members>Event_Registration__c.Title_on_Badge__c</members>
     <members>Lead.CurrentGenerators__c</members>
     <members>Lead.NumberofLocations__c</members>
     <members>Lead.Primary__c</members>
@@ -315,20 +235,6 @@
     <members>Lead.SICCode__c</members>
     <members>Merchant_Id__c.MID__c</members>
     <members>Merchant_Id__c.Type__c</members>
-    <members>npe03__Recurring_Donation__c.DonorPaymentMethod__c</members>
-    <members>npe03__Recurring_Donation__c.GC_Installment_Amount__c</members>
-    <members>npe03__Recurring_Donation__c.GcSignupId__c</members>
-    <members>npe03__Recurring_Donation__c.Households__c</members>
-    <members>npe03__Recurring_Donation__c.Record_Status__c</members>
-    <members>npe03__Recurring_Donation__c.Start_Date__c</members>
-    <members>npe4__Relationship__c.gc_id__c</members>
-    <members>npe5__Affiliation__c.Groups__c</members>
-    <members>NPSPBatch__c.Amount__c</members>
-    <members>NPSPBatch__c.BatchCount__c</members>
-    <members>NPSPBatch__c.Batch_NUmber__c</members>
-    <members>NPSPBatch__c.Campaign__c</members>
-    <members>NPSPBatch__c.Description__c</members>
-    <members>NPSPBatch__c.Status__c</members>
     <members>Opportunity.CurrentGenerators__c</members>
     <members>Opportunity.DeliveryInstallationStatus__c</members>
     <members>Opportunity.GcScheduleId__c</members>
@@ -340,9 +246,6 @@
     <members>Opportunity.Record_Status__c</members>
     <members>Opportunity.TrackingNumber__c</members>
     <members>Opportunity.TransactionId__c</members>
-    <members>Room__c.Room_Capacity__c</members>
-    <members>Room__c.Room_Setup__c</members>
-    <members>Room__c.Venue__c</members>
     <members>Sacrament__c.Certificate_on_File__c</members>
     <members>Sacrament__c.Church__c</members>
     <members>Sacrament__c.Church_Place__c</members>
@@ -361,80 +264,10 @@
     <members>Sacrament__c.Status__c</members>
     <members>Sacrament__c.Verification_Status__c</members>
     <members>Sacrament__c.Volume__c</members>
-    <members>Session__c.All_Speakers_Identified__c</members>
-    <members>Session__c.Attendance__c</members>
-    <members>Session__c.Audio_URL__c</members>
-    <members>Session__c.Audio_Visual_Requirements__c</members>
-    <members>Session__c.A_V_Form__c</members>
-    <members>Session__c.Level__c</members>
-    <members>Session__c.Link_to_Event__c</members>
-    <members>Session__c.of_Survey_Responses__c</members>
-    <members>Session__c.Publish_to_Web__c</members>
-    <members>Session__c.Room__c</members>
-    <members>Session__c.Room_Setup__c</members>
-    <members>Session__c.Session_Abstract__c</members>
-    <members>Session__c.Session_Code__c</members>
-    <members>Session__c.Session_Date__c</members>
-    <members>Session__c.Session_Format__c</members>
-    <members>Session__c.Session_Notes__c</members>
-    <members>Session__c.Session_Rating__c</members>
-    <members>Session__c.Session_Slot__c</members>
-    <members>Session__c.Session_Status__c</members>
-    <members>Session__c.Session_Theme__c</members>
-    <members>Session__c.Session_Time__c</members>
-    <members>Session__c.Slides_URL__c</members>
-    <members>Session__c.Sponsor__c</members>
-    <members>Session__c.Sponsored__c</members>
-    <members>Session__c.Track__c</members>
-    <members>Speaker__c.Account__c</members>
-    <members>Speaker__c.Best_Practice_Story_Brief_Description__c</members>
-    <members>Speaker__c.Biography__c</members>
-    <members>Speaker__c.Gift__c</members>
-    <members>Speaker__c.Hero_Slide__c</members>
-    <members>Speaker__c.Internal_Handler__c</members>
-    <members>Speaker__c.Link_to_Event__c</members>
-    <members>Speaker__c.Partner__c</members>
-    <members>Speaker__c.Publish_to_Web__c</members>
-    <members>Speaker__c.Release_Form__c</members>
-    <members>Speaker__c.Session__c</members>
-    <members>Speaker__c.Speaker_Contact__c</members>
-    <members>Speaker__c.Speaker_Details__c</members>
-    <members>Speaker__c.Speaker_Display_Name__c</members>
-    <members>Speaker__c.Speaker_Image__c</members>
-    <members>Speaker__c.Speaker_Rating__c</members>
-    <members>Speaker__c.Speaker_Status__c</members>
-    <members>Speaker__c.Speaker_Type__c</members>
-    <members>Speaker__c.Speak_Hierarchy__c</members>
-    <members>Speaker__c.Topic_Expertise__c</members>
-    <members>Speaker__c.Track__c</members>
     <members>Street_Address__c.Donors__c</members>
     <members>Street_Address__c.GC_Address_1__c</members>
     <members>Street_Address__c.GC_Address_2__c</members>
     <members>Street_Address__c.SF_Address__c</members>
-    <members>Track__c.Event__c</members>
-    <members>Track__c.Key_Takeaways__c</members>
-    <members>Track__c.Publish_to_Web__c</members>
-    <members>Track__c.Track_Category__c</members>
-    <members>Track__c.Track_Description__c</members>
-    <members>Track__c.Track_Status__c</members>
-    <members>Track__c.Track_Website__c</members>
-    <members>Venue__c.City__c</members>
-    <members>Venue__c.Contact_2__c</members>
-    <members>Venue__c.Contact_3__c</members>
-    <members>Venue__c.Country__c</members>
-    <members>Venue__c.Location_Information__c</members>
-    <members>Venue__c.Map_to_Venue__c</members>
-    <members>Venue__c.Notes__c</members>
-    <members>Venue__c.Postal_Code_Zip__c</members>
-    <members>Venue__c.Primary_Contact__c</members>
-    <members>Venue__c.Primary_Contact_Email__c</members>
-    <members>Venue__c.Primary_Contact_Phone__c</members>
-    <members>Venue__c.Primary_Contact_Title__c</members>
-    <members>Venue__c.State__c</members>
-    <members>Venue__c.Street_Address_1__c</members>
-    <members>Venue__c.Street_Address_2__c</members>
-    <members>Venue__c.Venue_Capacity__c</members>
-    <members>Venue__c.Venue_Type__c</members>
     <name>CustomField</name>
   </types>
   <types>
@@ -456,113 +289,6 @@
     <name>CustomLabels</name>
   </types>
   <types>
-    <members>npsp__Filter_Group.NPSP_Allocations_Filter</members>
-    <members>npsp__Filter_Group.NPSP_ClosedWon_Memberships</members>
-    <members>npsp__Filter_Group.NPSP_ClosedWon_Opps_HC</members>
-    <members>npsp__Filter_Group.NPSP_ClosedWon_Opps_No_RT_Exclusions</members>
-    <members>npsp__Filter_Group.NPSP_ClosedWon_Opps_SC</members>
-    <members>npsp__Filter_Group.NPSP_Open_Opportunties</members>
-    <members>npsp__Filter_Group.NPSP_Paid_Payments</members>
-    <members>npsp__Filter_Group.NPSP_WrittenOff_Payments</members>
-    <members>npsp__Filter_Rule.NPSP_AllosWonOnly</members>
-    <members>npsp__Filter_Rule.NPSP_MembershipAmountNotNull</members>
-    <members>npsp__Filter_Rule.NPSP_MembershipWonOnly</members>
-    <members>npsp__Filter_Rule.NPSP_OppsAmountNotNullHC</members>
-    <members>npsp__Filter_Rule.NPSP_OppsAmountNotNullSC</members>
-    <members>npsp__Filter_Rule.NPSP_OppsNotClosedOnly</members>
-    <members>npsp__Filter_Rule.NPSP_OppsSoftCreditRoles</members>
-    <members>npsp__Filter_Rule.NPSP_OppsWonOnlyHC</members>
-    <members>npsp__Filter_Rule.NPSP_OppsWonOnlyRD</members>
-    <members>npsp__Filter_Rule.NPSP_OppsWonOnlySC</members>
-    <members>npsp__Filter_Rule.NPSP_PmtsPaidOnly</members>
-    <members>npsp__Filter_Rule.NPSP_PmtsWrittenOffOnly</members>
-    <members>npsp__Rollup.NPSP_AcctAverageGift</members>
-    <members>npsp__Rollup.NPSP_AcctBestGiftYear</members>
-    <members>npsp__Rollup.NPSP_AcctBestGiftYearTotal</members>
-    <members>npsp__Rollup.NPSP_AcctFirstGiftDate</members>
-    <members>npsp__Rollup.NPSP_AcctLargestGift</members>
-    <members>npsp__Rollup.NPSP_AcctLastGiftAmount</members>
-    <members>npsp__Rollup.NPSP_AcctLastGiftDate</members>
-    <members>npsp__Rollup.NPSP_AcctLastMembershipAmount</members>
-    <members>npsp__Rollup.NPSP_AcctLastMembershipDate</members>
-    <members>npsp__Rollup.NPSP_AcctLastMembershipLevel</members>
-    <members>npsp__Rollup.NPSP_AcctLastMembershipOrigin</members>
-    <members>npsp__Rollup.NPSP_AcctMembershipEndDate</members>
-    <members>npsp__Rollup.NPSP_AcctMembershipJoinDate</members>
-    <members>npsp__Rollup.NPSP_AcctNumGiftsLastNDays</members>
-    <members>npsp__Rollup.NPSP_AcctNumGiftsLastYear</members>
-    <members>npsp__Rollup.NPSP_AcctNumGiftsThisYear</members>
-    <members>npsp__Rollup.NPSP_AcctNumGiftsTwoYearsAgo</members>
-    <members>npsp__Rollup.NPSP_AcctNumMemberships</members>
-    <members>npsp__Rollup.NPSP_AcctSmallestGift</members>
-    <members>npsp__Rollup.NPSP_AcctTotalGifts</members>
-    <members>npsp__Rollup.NPSP_AcctTotalGiftsLastNDays</members>
-    <members>npsp__Rollup.NPSP_AcctTotalGiftsLastYear</members>
-    <members>npsp__Rollup.NPSP_AcctTotalGiftsThisYear</members>
-    <members>npsp__Rollup.NPSP_AcctTotalGiftsTwoYearsAgo</members>
-    <members>npsp__Rollup.NPSP_AcctTotalMembershipAmount</members>
-    <members>npsp__Rollup.NPSP_AcctTotalNumGifts</members>
-    <members>npsp__Rollup.NPSP_ConAverageGift</members>
-    <members>npsp__Rollup.NPSP_ConBestGiftYear</members>
-    <members>npsp__Rollup.NPSP_ConBestGiftYearTotal</members>
-    <members>npsp__Rollup.NPSP_ConFirstGiftDate</members>
-    <members>npsp__Rollup.NPSP_ConFirstSoftCreditAmount</members>
-    <members>npsp__Rollup.NPSP_ConFirstSoftCreditDate</members>
-    <members>npsp__Rollup.NPSP_ConLargestGift</members>
-    <members>npsp__Rollup.NPSP_ConLargestSoftCreditAmount</members>
-    <members>npsp__Rollup.NPSP_ConLargestSoftCreditDate</members>
-    <members>npsp__Rollup.NPSP_ConLastGiftAmount</members>
-    <members>npsp__Rollup.NPSP_ConLastGiftDate</members>
-    <members>npsp__Rollup.NPSP_ConLastMembershipAmount</members>
-    <members>npsp__Rollup.NPSP_ConLastMembershipDate</members>
-    <members>npsp__Rollup.NPSP_ConLastMembershipLevel</members>
-    <members>npsp__Rollup.NPSP_ConLastMembershipOrigin</members>
-    <members>npsp__Rollup.NPSP_ConLastSoftCreditAmount</members>
-    <members>npsp__Rollup.NPSP_ConLastSoftCreditDate</members>
-    <members>npsp__Rollup.NPSP_ConMembershipEndDate</members>
-    <members>npsp__Rollup.NPSP_ConMembershipJoinDate</members>
-    <members>npsp__Rollup.NPSP_ConNumGiftsLastNDays</members>
-    <members>npsp__Rollup.NPSP_ConNumGiftsLastYear</members>
-    <members>npsp__Rollup.NPSP_ConNumGiftsThisYear</members>
-    <members>npsp__Rollup.NPSP_ConNumGiftsTwoYearsAgo</members>
-    <members>npsp__Rollup.NPSP_ConNumMemberships</members>
-    <members>npsp__Rollup.NPSP_ConNumSoftCredits</members>
-    <members>npsp__Rollup.NPSP_ConNumSoftCreditsLastNDays</members>
-    <members>npsp__Rollup.NPSP_ConNumSoftCreditsLastYear</members>
-    <members>npsp__Rollup.NPSP_ConNumSoftCreditsThisYear</members>
-    <members>npsp__Rollup.NPSP_ConNumSoftCreditsTwoYearsA</members>
-    <members>npsp__Rollup.NPSP_ConSmallestGift</members>
-    <members>npsp__Rollup.NPSP_ConSoftCreditLastNDays</members>
-    <members>npsp__Rollup.NPSP_ConSoftCreditLastYear</members>
-    <members>npsp__Rollup.NPSP_ConSoftCreditThisYear</members>
-    <members>npsp__Rollup.NPSP_ConSoftCreditTotal</members>
-    <members>npsp__Rollup.NPSP_ConSoftCreditTwoYearsAgo</members>
-    <members>npsp__Rollup.NPSP_ConTotalGifts</members>
-    <members>npsp__Rollup.NPSP_ConTotalGiftsLastNDays</members>
-    <members>npsp__Rollup.NPSP_ConTotalGiftsLastYear</members>
-    <members>npsp__Rollup.NPSP_ConTotalGiftsThisYear</members>
-    <members>npsp__Rollup.NPSP_ConTotalGiftsTwoYearsAgo</members>
-    <members>npsp__Rollup.NPSP_ConTotalMembershipAmount</members>
-    <members>npsp__Rollup.NPSP_ConTotalNumGifts</members>
-    <members>npsp__Rollup.NPSP_GAUAverageAllo</members>
-    <members>npsp__Rollup.NPSP_GAUFirstAlloDate</members>
-    <members>npsp__Rollup.NPSP_GAULargestAllo</members>
-    <members>npsp__Rollup.NPSP_GAULastAlloDate</members>
-    <members>npsp__Rollup.NPSP_GAUNumAllosLastNDays</members>
-    <members>npsp__Rollup.NPSP_GAUNumAllosLastYear</members>
-    <members>npsp__Rollup.NPSP_GAUNumAllosThisYear</members>
-    <members>npsp__Rollup.NPSP_GAUNumAllosTwoYearsAgo</members>
-    <members>npsp__Rollup.NPSP_GAUSmallestAllo</members>
-    <members>npsp__Rollup.NPSP_GAUTotalAllos</members>
-    <members>npsp__Rollup.NPSP_GAUTotalAllosLastNDays</members>
-    <members>npsp__Rollup.NPSP_GAUTotalAllosLastYear</members>
-    <members>npsp__Rollup.NPSP_GAUTotalAllosThisYear</members>
-    <members>npsp__Rollup.NPSP_GAUTotalAllosTwoYearsAgo</members>
-    <members>npsp__Rollup.NPSP_GAUTotalNumAllos</members>
-    <members>npsp__Rollup.NPSP_RDLastPmtDate</members>
-    <members>npsp__Rollup.NPSP_RDNextPmtDate</members>
-    <members>npsp__Rollup.NPSP_RDPaidAmount</members>
-    <members>npsp__Rollup.NPSP_RDTotalPaidInstallments</members>
     <name>CustomMetadata</name>
   </types>
   <types>
@@ -570,54 +296,28 @@
     <members>Country_Codes__c</members>
     <members>DonorPaymentMethod__c</members>
     <members>ErrorLogAPI__c</members>
-    <members>Event__c</members>
-    <members>Event_Expense__c</members>
-    <members>Event_MDF__c</members>
-    <members>Event_Registration__c</members>
     <members>Knowledge__kav</members>
     <members>Merchant_Id__c</members>
-    <members>NPSPBatch__c</members>
-    <members>Room__c</members>
     <members>Sacrament__c</members>
-    <members>Session__c</members>
-    <members>Speaker__c</members>
     <members>Street_Address__c</members>
-    <members>Track__c</members>
-    <members>Venue__c</members>
     <name>CustomObject</name>
   </types>
   <types>
     <members>Batch_List</members>
     <members>Batch_New_Gift</members>
     <members>Country_Codes__c</members>
-    <members>Create_NPSP_Batch</members>
     <members>DonorPaymentMethod__c</members>
     <members>ErrorLogAPI__c</members>
-    <members>Event__c</members>
-    <members>Event_Expense__c</members>
-    <members>Event_MDF__c</members>
     <members>Merchant_Id__c</members>
     <members>Sacrament__c</members>
-    <members>Session__c</members>
-    <members>Speaker__c</members>
     <members>Street_Address__c</members>
-    <members>Venue__c</members>
     <name>CustomTab</name>
   </types>
   <types>
-    <members>Events_4</members>
-    <members>Events_4/Events_Summary_Dashboard</members>
-    <members>NPSP_Dashboards</members>
-    <members>NPSP_Dashboards/Development_Analysis</members>
-    <members>NPSP_Dashboards/Development_Forecasting</members>
-    <members>NPSP_Dashboards/Giving_Range_Analysis</members>
-    <members>NPSP_Dashboards/NPSP_Campaign_ROI_Analysis</members>
-    <members>NPSP_Dashboards/WKcbchPIHAGUHFgVjCqleRHjFqKABt</members>
     <name>Dashboard</name>
   </types>
   <types>
     <members>Event_4</members>
-    <members>Event_4/Events_4_3_Change_Log.pdf</members>
     <name>Document</name>
   </types>
   <types>
@@ -734,11 +434,7 @@
     <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
     <members>EmailMessage-Email Message Layout</members>
     <members>ErrorLogAPI__c-ErrorLogAPI Layout</members>
-    <members>Event__c-Event Layout</members>
     <members>Event-Event Layout</members>
-    <members>Event_Expense__c-Event Expense Layout</members>
-    <members>Event_MDF__c-Event MDF Layout</members>
-    <members>Event_Registration__c-Registration Layout</members>
     <members>Global-Global Layout</members>
     <members>Idea-Idea Layout</members>
     <members>Individual-Individual Layout</members>
@@ -750,8 +446,6 @@
     <members>ListEmail-List Email Layout</members>
     <members>Macro-Macro Layout</members>
     <members>Merchant_Id__c-Merchant Id Layout</members>
-    <members>NPSPBatch__c-NPSPBatch Layout</members>
-    <members>npsp__DataImport__c-Gift Import Layout</members>
     <members>OpportunityLineItem-Opportunity Product Layout</members>
     <members>Opportunity-Opportunity %28Marketing%29 Layout</members>
     <members>Opportunity-Opportunity %28Sales%29 Layout</members>
@@ -764,28 +458,23 @@
     <members>Product2-Product Layout</members>
     <members>ProductConsumptionSchedule-Product Consumption Schedule Layout</members>
     <members>QuickText-Quick Text Layout</members>
-    <members>Room__c-Room Layout</members>
     <members>Sacrament__c-Sacrament Layout</members>
     <members>ScorecardAssociation-Scorecard Association Layout</members>
     <members>ScorecardMetric-Scorecard Metric Layout</members>
     <members>Scorecard-Scorecard Layout</members>
-    <members>Session__c-Session Layout</members>
     <members>SocialPersona-Social Persona Layout</members>
     <members>SocialPost-Social Post Layout</members>
     <members>Solution-Solution Layout</members>
     <members>SOSSessionActivity-SOS Session Activity Layout</members>
     <members>SOSSession-SOS Session Layout</members>
-    <members>Speaker__c-Speaker Layout</members>
     <members>Street_Address__c-Street Address Layout</members>
     <members>Task-Task Layout</members>
-    <members>Track__c-Track Layout</members>
     <members>UserAlt-User Profile Layout</members>
     <members>UserAppMenuItem-Application Layout</members>
     <members>UserProvAccount-User Provisioning Account Layout</members>
     <members>UserProvisioningLog-User Provisioning Log Layout</members>
     <members>UserProvisioningRequest-User Provisioning Request Layout</members>
     <members>User-User Layout</members>
-    <members>Venue__c-Venue Layout</members>
     <name>Layout</name>
   </types>
   <types>
@@ -839,9 +528,6 @@
     <members>Country_Codes__c.All</members>
     <members>DonorPaymentMethod__c.All</members>
     <members>ErrorLogAPI__c.All</members>
-    <members>Event__c.All</members>
-    <members>Event_Expense__c.All</members>
-    <members>Event_MDF__c.All</members>
     <members>Event.MyRecentEvents</members>
     <members>Event.MyTeamsRecentEvents</members>
     <members>Event.MyTeamsUpcomingEvents</members>
@@ -856,8 +542,6 @@
     <members>Lead.ViewCustom1</members>
     <members>Lead.ViewCustom2</members>
     <members>Merchant_Id__c.All</members>
-    <members>npe03__Recurring_Donation__c.All</members>
-    <members>npe5__Affiliation__c.all</members>
     <members>Opportunity.AllOpportunities</members>
     <members>Opportunity.ClosingNextMonth</members>
     <members>Opportunity.ClosingThisMonth</members>
@@ -874,11 +558,9 @@
     <members>Sacrament__c.All</members>
     <members>Scorecard.AllScorecards</members>
     <members>Scorecard.MyScorecards</members>
-    <members>Session__c.All</members>
     <members>SocialPersona.AllSocialPersonas</members>
     <members>Solution.AllReviewedSolutions</members>
     <members>Solution.AllUnreviewedSolutions</members>
-    <members>Speaker__c.All</members>
     <members>Street_Address__c.All</members>
     <members>Task.CompletedTasks</members>
     <members>Task.DelegatedTasks</members>
@@ -890,7 +572,6 @@
     <members>User.ActiveUsers</members>
     <members>User.AdminUsers</members>
     <members>User.AllUsers</members>
-    <members>Venue__c.All</members>
     <members>WorkFeedbackRequest.AboutTopics</members>
     <members>WorkFeedbackRequest.All</members>
     <members>WorkFeedbackTemplate.All</members>
@@ -1000,8 +681,6 @@
     <members>NewOpportunity</members>
     <members>New_Organization</members>
     <members>NewTask</members>
-    <members>npe03__Recurring_Donation__c.Delete_Recurring</members>
-    <members>npe03__Recurring_Donation__c.Sync_Recurring_Donations_To_Gc</members>
     <members>Opportunity.Delete_Opportunity</members>
     <members>Opportunity.Sync_Opportunity</members>
     <members>SendEmail</members>
@@ -1035,89 +714,6 @@
     <name>RemoteSiteSetting</name>
   </types>
   <types>
-    <members>Events_4</members>
-    <members>Events_4/Event_Capacity</members>
-    <members>Events_4/Events_with_Capacity_and_Registrations</members>
-    <members>Events_4/Events_with_Registrations</members>
-    <members>Events_4/Events_with_Sessions_and_Speaker_Stat</members>
-    <members>Events_4/Events_with_Session_Status</members>
-    <members>Events_4/Events_with_Tracks_and_Sessions</members>
-    <members>Events_4/Registrations_by_Day</members>
-    <members>Events_4/Sessions_without_Speakers</members>
-    <members>NPSP_Constituent_Reports</members>
-    <members>NPSP_Constituent_Reports/All_Contacts</members>
-    <members>NPSP_Constituent_Reports/All_Donors_by_Household_g1d</members>
-    <members>NPSP_Constituent_Reports/All_Organizations</members>
-    <members>NPSP_Constituent_Reports/All_Relationships</members>
-    <members>NPSP_Constituent_Reports/Current_Members_Contacts</members>
-    <members>NPSP_Constituent_Reports/Engagement_Plan_Tasks</members>
-    <members>NPSP_Constituent_Reports/Lapsed_Members_Contacts</members>
-    <members>NPSP_Constituent_Reports/Memberships_Over_Time</members>
-    <members>NPSP_Constituent_Reports/New_Affiliations_by_Group_Report_HiE</members>
-    <members>NPSP_Constituent_Reports/New_Members</members>
-    <members>NPSP_Constituent_Reports/New_Renewals</members>
-    <members>NPSP_Dashboard_Reports</members>
-    <members>NPSP_Dashboard_Reports/DASH_Campaign_ROI_Analysis</members>
-    <members>NPSP_Dashboard_Reports/DASH_Delinquent_Accounts</members>
-    <members>NPSP_Dashboard_Reports/DASH_Expected_Payments_Next_90_Days</members>
-    <members>NPSP_Dashboard_Reports/DASH_Giving_by_GAU_Last_Three_Years</members>
-    <members>NPSP_Dashboard_Reports/DASH_Giving_by_GAU_This_Year2</members>
-    <members>NPSP_Dashboard_Reports/DASH_Giving_by_Households_This_Year</members>
-    <members>NPSP_Dashboard_Reports/DASH_Giving_by_Organizations_This_Year</members>
-    <members>NPSP_Dashboard_Reports/DASH_Giving_by_Record_Type_Last_Three_Years</members>
-    <members>NPSP_Dashboard_Reports/DASH_Giving_by_Record_Type_This_Year</members>
-    <members>NPSP_Dashboard_Reports/DASH_Giving_Range_Last_Year</members>
-    <members>NPSP_Dashboard_Reports/DASH_Giving_Range_Two_Years_Ago</members>
-    <members>NPSP_Dashboard_Reports/DASH_Household_Gifts_This_Year</members>
-    <members>NPSP_Dashboard_Reports/DASH_LYBUNT_Households</members>
-    <members>NPSP_Dashboard_Reports/DASH_LYBUNT_Organizations</members>
-    <members>NPSP_Dashboard_Reports/DASH_Most_Recent_Gifts_This_Year</members>
-    <members>NPSP_Dashboard_Reports/DASH_Opportunity_Pipeline_by_Campaign</members>
-    <members>NPSP_Dashboard_Reports/DASH_Opportunity_Pipeline_by_Stage</members>
-    <members>NPSP_Dashboard_Reports/DASH_Opportunity_Pipeline_Month_Stage</members>
-    <members>NPSP_Dashboard_Reports/DASH_Organization_Gifts_This_Year</members>
-    <members>NPSP_Dashboard_Reports/DASH_Overdue_Payments</members>
-    <members>NPSP_Dashboard_Reports/DASH_SYBUNT_Households</members>
-    <members>NPSP_Dashboard_Reports/DASH_SYBUNT_Organizations</members>
-    <members>NPSP_Dashboard_Reports/Expired_Payment_Methods_Last_60_Days_4NV</members>
-    <members>NPSP_Dashboard_Reports/Giving_Range_This_Year</members>
-    <members>NPSP_Dashboard_Reports/Recurring_Gifts_Paid_This_Year_VZA</members>
-    <members>NPSP_Fundraising_Reports</members>
-    <members>NPSP_Fundraising_Reports/Account_LYBUNT</members>
-    <members>NPSP_Fundraising_Reports/Accounts_by_Best_Gift_Year</members>
-    <members>NPSP_Fundraising_Reports/Account_SYBUNT</members>
-    <members>NPSP_Fundraising_Reports/Campaign_ROI_Analysis</members>
-    <members>NPSP_Fundraising_Reports/Closed_Won_Opps_by_Type_and_Fiscal_Year</members>
-    <members>NPSP_Fundraising_Reports/Closed_Won_Opps_by_Type_and_Payment</members>
-    <members>NPSP_Fundraising_Reports/Closed_Won_Opps_by_Type_GAU_and_FY</members>
-    <members>NPSP_Fundraising_Reports/Closed_Won_Opps_Household</members>
-    <members>NPSP_Fundraising_Reports/Contact_LYBUNT2</members>
-    <members>NPSP_Fundraising_Reports/Contacts_by_Best_Gift_Year</members>
-    <members>NPSP_Fundraising_Reports/Contacts_with_Giving_Totals</members>
-    <members>NPSP_Fundraising_Reports/Contacts_with_Soft_Credits</members>
-    <members>NPSP_Fundraising_Reports/Contact_SYBUNT2</members>
-    <members>NPSP_Fundraising_Reports/Donation_Change_This_Year_vs_Last_Year</members>
-    <members>NPSP_Fundraising_Reports/Expected_Opportunities</members>
-    <members>NPSP_Fundraising_Reports/Expected_Overdue_Payments</members>
-    <members>NPSP_Fundraising_Reports/Expected_Payments</members>
-    <members>NPSP_Fundraising_Reports/GAU_Allocations_Payments</members>
-    <members>NPSP_Fundraising_Reports/General_Accounting_Units</members>
-    <members>NPSP_Fundraising_Reports/Grants_This_Year</members>
-    <members>NPSP_Fundraising_Reports/Households_with_Giving_Totals</members>
-    <members>NPSP_Fundraising_Reports/Lifetime_Account_by_Level</members>
-    <members>NPSP_Fundraising_Reports/Lifetime_Account_Gift_Ranges</members>
-    <members>NPSP_Fundraising_Reports/Month_by_Month_Donation_Comparison</members>
-    <members>NPSP_Fundraising_Reports/Open_Opportunities</members>
-    <members>NPSP_Fundraising_Reports/Opportunities_by_Campaign_Source</members>
-    <members>NPSP_Fundraising_Reports/Opportunities_by_GAU_Allocation</members>
-    <members>NPSP_Fundraising_Reports/Opportunities_with_Payments</members>
-    <members>NPSP_Fundraising_Reports/Opportunities_with_Unclaimed_Matching</members>
-    <members>NPSP_Fundraising_Reports/Paid_Recurring_Donations</members>
-    <members>NPSP_Fundraising_Reports/Prior_Year_Giving_with_Mailing_Address</members>
-    <members>NPSP_Fundraising_Reports/Top_25_Account_Donors_Lifetime</members>
-    <members>NPSP_Fundraising_Reports/Top_25_Opportunities_Lifetime</members>
-    <members>NPSP_Fundraising_Reports/Tribute_Opportunities</members>
-    <members>NPSP_Fundraising_Reports/X10_Increase_Projection</members>
     <members>unfiled$public/Engagement_Plans_zOq</members>
     <members>unfiled$public/Expired_Credit_Cards_NSW</members>
     <members>unfiled$public/New_Donors_Last_7_Days_9xj</members>
@@ -1126,9 +722,6 @@
   </types>
   <types>
     <members>Affiliations_by_Group</members>
-    <members>Events_with_Registrations</members>
-    <members>Events_with_Tracks_with_Sessions</members>
-    <members>Events_with_Tracks_with_Sessions_with_Speakers</members>
     <members>Opportunities_with_Contacts_with_Affiliations</members>
     <members>Sessions_with_or_without_Speakers</members>
     <name>ReportType</name>
@@ -1163,12 +756,9 @@
     <members>Country_Codes__c</members>
     <members>DonorPaymentMethod__c</members>
     <members>ErrorLogAPI__c</members>
-    <members>Event__c</members>
     <members>Merchant_Id__c</members>
-    <members>NPSPBatch__c</members>
     <members>Sacrament__c</members>
     <members>Street_Address__c</members>
-    <members>Venue__c</members>
     <name>SharingRules</name>
   </types>
   <types>
@@ -1188,67 +778,24 @@
     <members>DonorPaymentMethod__c</members>
     <members>ErrorLogAPI__c</members>
     <members>Event</members>
-    <members>Event__c</members>
-    <members>Event_Expense__c</members>
-    <members>Event_MDF__c</members>
-    <members>Event_Registration__c</members>
-    <members>GW_Volunteers__Job_Recurrence_Schedule__c</members>
-    <members>GW_Volunteers__Volunteer_Hours__c</members>
-    <members>GW_Volunteers__Volunteer_Job__c</members>
-    <members>GW_Volunteers__Volunteer_Recurrence_Schedule__c</members>
-    <members>GW_Volunteers__Volunteer_Shift__c</members>
     <members>Knowledge__kav</members>
     <members>Lead</members>
     <members>LinkedArticle</members>
     <members>Merchant_Id__c</members>
     <members>npe01__OppPayment__c</members>
-    <members>npe03__Recurring_Donation__c</members>
-    <members>npe4__Relationship__c</members>
-    <members>npe4__Relationship_Error__c</members>
-    <members>npe5__Affiliation__c</members>
     <members>npo02__Household__c</members>
-    <members>npsp__Account_Soft_Credit__c</members>
-    <members>npsp__Address__c</members>
-    <members>npsp__Allocation__c</members>
-    <members>npsp__Batch__c</members>
-    <members>NPSPBatch__c</members>
-    <members>npsp__DataImportBatch__c</members>
-    <members>npsp__DataImport__c</members>
-    <members>npsp__Engagement_Plan__c</members>
-    <members>npsp__Engagement_Plan_Task__c</members>
-    <members>npsp__Engagement_Plan_Template__c</members>
-    <members>npsp__Error__c</members>
-    <members>npsp__Fund__c</members>
-    <members>npsp__General_Accounting_Unit__c</members>
-    <members>npsp__Grant_Deadline__c</members>
-    <members>npsp__Level__c</members>
-    <members>npsp__Partial_Soft_Credit__c</members>
-    <members>npsp__Schedulable__c</members>
-    <members>npsp__Trigger_Handler__c</members>
     <members>Opportunity</members>
     <members>Order</members>
-    <members>Room__c</members>
     <members>Sacrament__c</members>
-    <members>Session__c</members>
     <members>Solution</members>
-    <members>Speaker__c</members>
     <members>Street_Address__c</members>
     <members>Task</members>
-    <members>Track__c</members>
-    <members>Venue__c</members>
     <name>TopicsForObjects</name>
   </types>
   <types>
     <members>Campaign.enddate</members>
     <members>Campaign.startdate</members>
     <members>Campaign.startdatecheck</members>
-    <members>npe03__Recurring_Donation__c.AmountValue</members>
-    <members>npe03__Recurring_Donation__c.Installments</members>
-    <members>npe03__Recurring_Donation__c.InstallmentsValue</members>
-    <members>npe03__Recurring_Donation__c.NextDonationDate</members>
-    <members>npe03__Recurring_Donation__c.Parish_Id_check</members>
-    <members>npe03__Recurring_Donation__c.Parish_Id_Validation</members>
-    <members>npe03__Recurring_Donation__c.Schedule_Type_Error</members>
     <members>Sacrament__c.OnlyVisibleForMarriage</members>
     <name>ValidationRule</name>
   </types>
