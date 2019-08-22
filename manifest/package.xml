@@ -266,20 +266,6 @@
     <name>CustomField</name>
   </types>
   <types>
-    <members>ApiCallUrl</members>
-    <members>client_token_url</members>
-    <members>Delete_GC_Recurring</members>
-    <members>M</members>
-    <members>NewDonorApi</members>
-    <members>NewEventApi</members>
-    <members>NewRecurringApi</members>
-    <members>saveDonorDetails</members>
-    <members>SFDCGePatchRecord</members>
-    <members>UpdateOpp</members>
-    <members>UpdateRecurringApi</members>
-    <name>CustomLabel</name>
-  </types>
-  <types>
       <members>CustomLabels</members>
     <name>CustomLabels</name>
   </types>
