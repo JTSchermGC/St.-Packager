@@ -327,10 +327,6 @@
     <name>EmailTemplate</name>
   </types>
   <types>
-    <members>Case.Standard</members>
-    <name>EscalationRule</name>
-  </types>
-  <types>
     <members>Affiliation</members>
     <members>Affiliation1</members>
     <members>Diocese_of_Brooklyn_and_Queens_Parish_UtilityBar</members>
