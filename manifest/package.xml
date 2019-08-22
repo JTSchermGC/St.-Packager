@@ -482,8 +482,6 @@
     <members>Case.USEscalations</members>
     <members>Case.USPlatinumGold</members>
     <members>Case.USSilverBronze</members>
-    <members>ConsumptionSchedule.All_ConsumptionSchedules</members>
-    <members>ConsumptionSchedule.My_ConsumptionSchedules</members>
     <members>Contact.AllContacts</members>
     <members>Contact.BirthdaysThisMonth</members>
     <members>Contact.mens_club</members>
