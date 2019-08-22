@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reporting_Group__c</fullName>
+    <externalId>false</externalId>
+    <label>Reporting Group</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not categorized</fullName>
+                <default>true</default>
+                <label>Not categorized</label>
+            </value>
+            <value>
+                <fullName>Type A</fullName>
+                <default>false</default>
+                <label>Type A</label>
+            </value>
+            <value>
+                <fullName>Type B</fullName>
+                <default>false</default>
+                <label>Type B</label>
+            </value>
+            <value>
+                <fullName>Type C</fullName>
+                <default>false</default>
+                <label>Type C</label>
+            </value>
+            <value>
+                <fullName>Type D</fullName>
+                <default>false</default>
+                <label>Type D</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

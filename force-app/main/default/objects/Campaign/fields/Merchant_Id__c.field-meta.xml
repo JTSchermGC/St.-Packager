@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Merchant_Id__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>The Merchant ID number assigned to your nonprofit organization for transacting debit and credit card payments.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The unique merchant ID# provided to your organization by GiveCentral for processing credit and debit card payments.</inlineHelpText>
+    <label>Merchant ID</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Merchant_Id__c.Type__c</field>
+            <operation>equals</operation>
+            <value>CC</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Merchant_Id__c</referenceTo>
+    <relationshipLabel>Campaigns</relationshipLabel>
+    <relationshipName>Campaigns</relationshipName>
+    <required>true</required>
+    <type>Lookup</type>
+</CustomField>
