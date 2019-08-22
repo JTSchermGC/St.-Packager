@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Session__c$Session_Date__c</field>
+    </columns>
+    <columns>
+        <field>Session__c$Session_Time__c</field>
+    </columns>
+    <columns>
+        <field>Session__c.Speakers__r$Speaker_Contact__c</field>
+    </columns>
+    <columns>
+        <field>Session__c.Speakers__r$Speaker_Display_Name__c</field>
+    </columns>
+    <columns>
+        <field>Session__c.Speakers__r$Name</field>
+    </columns>
+    <columns>
+        <field>Session__c.Speakers__r$Speaker_Status__c</field>
+    </columns>
+    <description>Sessions with no speaker Idenfitied</description>
+    <filter>
+        <criteriaItems>
+            <column>Session__c.Speakers__r$Speaker_Contact__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value/>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Session__c$Name</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Sessions without Speakers</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Sessions_with_or_without_Speakers__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Session__c$Session_Date__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

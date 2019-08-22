@@ -1,0 +1,5 @@
+<aura:component controller="OpportunityClassSync" implements="force:lightningQuickActionWithoutHeader,force:hasRecordId,force:hasSObjectName" access="global" >
+    <div class="slds-align_absolute-center" style="height: 10rem;">
+    	<lightning:button label="Sync Opportunitysdsdd" title="Sync Opportunity" onclick="{!c.myAction}" />
+    </div>
+</aura:component>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parish_Id_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( 
+ISPICKVAL( npe03__Schedule_Type__c , &#39;Divide By&#39;), 
+ISBLANK( Households__c ) 
+)</errorConditionFormula>
+    <errorDisplayField>Households__c</errorDisplayField>
+    <errorMessage>Please select a Parish ID.</errorMessage>
+</ValidationRule>

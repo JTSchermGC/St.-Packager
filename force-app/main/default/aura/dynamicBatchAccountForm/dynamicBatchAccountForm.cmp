@@ -1,0 +1,14 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+    <aura:attribute name="ContactselectedLookUpRecord" type="sObject" default="{}"/>
+        <aura:attribute name="myString" type="String" access="global"/>
+    <div class='slds-grid slds-gutters'>
+        <div class='width_div slds-col'><ui:inputText value="{!v.myString}" aura:id="inputName" label="Name" class="myname slds-input" labelClass="slds-form-element__label"/></div>
+        <div class='width_div slds-col'><ui:inputText aura:id="inputCheque" label="cheque Number" class="slds-input" labelClass="slds-form-element__label"/></div>
+        <div class='width_div slds-col'><ui:inputText aura:id="inputNAmount" label="Amount" class="slds-input" labelClass="slds-form-element__label"/></div>
+        <div class='width_div dynamic_con_acc_data'><c:customLookup aura:id="contact_data" objectAPIName="account" IconName="standard:account" selectedRecord="{!v.ContactselectedLookUpRecord}" label="Account Name"/></div>
+        <div class='width_div slds-col'><button aura:id="deleted" class="slds-button slds-button--neutral" label="Destroy" onclick="{!c.destroyModal}">Destroy</button></div>
+    </div>
+    <div aura:id="ModalDiv">
+            	{!v.body}
+        	</div>
+    </aura:component>
